@@ -1,0 +1,11 @@
+== simple mocking program
+
+* service is a response 'some text file like' `FooBar_take2.xml`
+* `<ServiceName>`_`<stage>`.`<ext>`
+* `<ServiceName>` => CamelCase
+* `<stage>` => `default`, `overide1`, `overide2` ...
+* `<ext>` => 'anythin'
+* stage `default` has to be there
+* dropin services into 'data/services' folder and start the server
+        ruby route.rb
+* admin app to manage the 'mocking'.
